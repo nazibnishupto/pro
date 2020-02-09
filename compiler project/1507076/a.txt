@@ -1,0 +1,83 @@
+include nazib.j
+include nishupto.j
+
+int mainfunc fbs fbc
+sbs
+	
+	
+		double c eq 3,x,z,a,b,c;
+		int flag eq 5,count,number,abcd,jhg,nazib;
+	
+		n eq 6;
+		x eq 9 add 9;
+	
+		cou eq 7;
+		number eq 9 add 9;
+	
+		int z;
+		int number,abcd;
+		double jhg;
+		
+		double number eq 9;
+		int z eq 2;
+		int f eq 20;
+		
+		for fbs x eq 0 , x le 10, x pp fbc 
+		sbs
+			output "AAA";
+		sbc
+		
+		if fbs f > 50 fbc 
+		sbs
+			output "ADF";
+		sbc
+		
+		elif fbs f < 50 fbc
+		sbs 
+			output "BMNH";
+		sbc
+		
+		else 
+		sbs 
+			output "JDF";
+		sbc
+
+		int p eq 3;
+		if fbs p > 2 fbc 
+		sbs
+			for fbs x eq 0 , x le 5, x pp fbc
+			sbs
+				output "PPPPP";
+			sbc
+		sbc 
+		else 
+		sbs 
+			for fbs x eq 0 , x le 2, x pp fbc
+			sbs
+				output "PP";
+			sbc
+		sbc
+		
+		int sw eq 2;
+		
+		switch fbs sw fbc
+		sbs
+			sack 1
+			sbs
+				output "AAA";
+			sbc
+			sack 2
+			sbs
+				output "BBB";
+			sbc
+			sack 3
+			sbs
+				output "CCC";
+			sbc
+			defau
+			sbs
+				output "DDD";
+			sbc
+		sbc
+		
+sbc

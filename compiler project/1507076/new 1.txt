@@ -1,0 +1,132 @@
+			sack 1
+					output "AAA";
+			sack 2
+					output "BBB";
+			sack 3
+					output "CCC";
+			default	
+					output "DDD";
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					| SACK variance 																{ printf("\nIn case : ");
+																							  casecount++;
+																							  printf("%d\n",casecount);
+									
+																							}
+																							
+																							
+																							
+																							
+variance    : VAR					{ $$ = sym[$1]; } 
+			| VAR1 					{ $$ = multichar[checkindex(cnt)][99];clearmultichar(cnt);cnt--; }
+			| NUM	    			{ $$ = $1; }																							
+																							
+																							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+switch	: SWITCH PB expswitch PE BB switchinside BE 
+		;
+
+expswitch 	:  expression 
+					{
+						switchdone = 0;
+						switchvar = $1;
+					}
+			;
+
+
+switchinside	: /* empty */
+				| switchinside expression COL BB statement BE 
+					{
+						if($2 == switchvar){
+							printf("Executed %d\n",$2);
+							switchdone = 1;
+						}					
+					}
+				| switchinside DEFAULT COL BB statement BE 
+					{
+						if(switchdone == 0){
+							switchdone = 1;
+							printf("Default Block executed\n");
+						}
+					}
+				;			
+
+
+
+
+
+
+
+			case 1
+			sbs
+				
+			sbc
+			case 2
+			sbs
+				
+			sbc
+			default
+			sbs
+				
+			sbc
+
+
+
+
+
+
+
+			switchinside: /* empty */
+			| switchinside SACK variance SBS switchinside SBC 
+					
+			| switchinside DEFAULT SBS switchinside SBC
+		
+			;
+
+
+
+
+
+
+
+
+				
+																							
+																							
+																							

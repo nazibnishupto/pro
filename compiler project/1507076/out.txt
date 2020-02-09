@@ -1,0 +1,102 @@
+c = 3 ==> single variable declared && assigned !!!
+x ==> single variable declared !!!
+z ==> single variable declared !!!
+a ==> single variable declared !!!
+b ==> single variable declared !!!
+'c' ==> single variable is Redeclared !!!
+valid declaration
+
+flag = 5 ==> multiple variable declared && assigned !!!
+count ==> multiple variable is declared !!!
+number ==> multiple variable is declared !!!
+abcd ==> multiple variable is declared !!!
+jhg ==> multiple variable is declared !!!
+nazib ==> multiple variable is declared !!!
+valid declaration
+
+'n' ==> single variable is Undeclared !!!
+x = 18 ==> single variable assigned !!!
+'cou' ==> multiple variable is Undeclared !!!
+number = 18 ==> multiple variable is assined !!!
+'z' ==> single variable is Redeclared !!!
+valid declaration
+
+'number'==>  multiple variable is Redeclared !!!
+'abcd'==>  multiple variable is Redeclared !!!
+valid declaration
+
+'jhg'==>  multiple variable is Redeclared !!!
+valid declaration
+
+'number' ==> multiple variable is Redeclared !!!
+valid declaration
+
+'z' ==> single variable Redeclared !!!
+valid declaration
+
+f = 20 ==> single variable declared && assigned !!!
+valid declaration
+
+
+Loop!!
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+AAA
+
+If Section
+If condition false
+
+ElseIf section
+Else-If condition true
+BMNH
+
+Else section
+Else condition false
+p = 3 ==> single variable declared && assigned !!!
+valid declaration
+
+
+Loop!!
+PPPPP
+PPPPP
+PPPPP
+PPPPP
+PPPPP
+
+If Section
+If condition true
+
+
+Loop!!
+PP
+PP
+
+Else section
+Else condition false
+sw = 2 ==> multiple variable declared && assigned !!!
+valid declaration
+
+
+Switch Section
+
+In case : 1
+is not working!!!!!
+
+In case : 2
+is working!!!!!
+BBB
+
+In case : 3
+is not working!!!!!
+
+default case 
+is not working!!!!!
+
+successful compilation
