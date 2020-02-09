@@ -1,0 +1,97 @@
+.banner
+{
+	background-color: #228B22;
+	overflow: hidden;
+}
+.banner img
+{
+	width: 70px;
+	height: 70px;
+}
+.banner p
+{
+	color:black;
+	font-weight: bolder;
+	font-family: "Arial", cursive, sans-serif;
+}
+
+.menu
+{
+	background-color: #add8e6;
+	overflow: hidden;
+}
+
+.menu ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li
+{
+	/*background-color: #add8e6;
+	border: 1px solid white;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;*/
+
+
+	display: inline;
+	float: left;
+ 	border-right: 1px solid #bbb;
+}
+
+.menu ul li a
+{
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 8px 50px;
+	font-family: "Arial", cursive, sans-serif;
+
+}
+.menu ul li a:hover
+{
+	background-color: black;
+	color: white;
+
+}
+
+.lgin1
+{
+	margin-top: -270px;
+	margin-bottom: 30px;
+}
+.lgin1 p
+{
+	margin-right: 20px;
+	color:#ffffff;
+	font-size: 35px;
+	
+}
+.lgin1 input
+{
+	text-align: right;
+	font-size: 25px;
+	opacity: .5;
+	margin-top: -16px;
+	margin-right: 20px;
+}
+
+.heading
+{
+	background-color: #228B22;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.heading p
+{
+	text-align: center;
+	font-family: "Arial", cursive, sans-serif;
+	font-size: 13px;
+	font-weight: bolder;
+}
+

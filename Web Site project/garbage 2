@@ -1,0 +1,35 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CustomerRegistration.aspx.cs" Inherits="CustomerRegistration" MasterPageFile="~/MasterPage.master" %>
+
+
+<asp:Content ID="content3" ContentPlaceHolderID="title" runat="server">
+    <title>Admin Registration Form</title>
+</asp:Content>
+
+
+<asp:Content ID="content2" ContentPlaceHolderID="head" runat="server">
+    <title>Customer Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="Registration2.css"/>
+</asp:Content>
+
+<asp:Content ID="content1" ContentPlaceHolderID="body" runat="server">
+
+<div class="body">
+   <div class="login-page">
+
+       <div class="form">
+           <form class="form">
+               <h1>Admin Registration</h1>
+               <input type="text" placeholder="Name" />
+               <input type="password" placeholder="Password" />
+               <input type="text" placeholder="Email" />
+			<input type="number" name="num" id="phone" placeholder="mobilenumber"><br>
+			<br>
+               <button>Register</button>
+           </form>
+       </div>
+
+   </div> 	
+
+</div>
+
+</asp:Content>

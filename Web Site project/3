@@ -1,0 +1,140 @@
+<%@ Page Language="c#" AutoEventWireup="false" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <<title>RentMyCar | Home</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+
+    <script type="text/javascript">
+        var image_tracker = 'f';
+        function change() {
+            var image = document.getElementById('social');
+            if (image_tracker == 'f') {
+                image.src = "p90133906-2-e1418662158960-630x315.jpg";
+                image_tracker = 't';
+            }
+            else {
+                image.src = "grand_i10_twilight_blue_542x_7.jpg";
+                image_tracker = 'f';
+            }
+
+        }
+        setInterval('change()', 2000);
+    </script>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div class="banner">
+		<p align="left"><img src="download.png" ><font size="3px">RentMyCar.com</font></p>
+	</div>
+
+	<div class="menu">
+		<ul>
+			<li>
+				<a href="Home.html">Home</a>
+			</li>
+			<li>
+				<a href="About us.html">About us</a>
+			</li>
+			<li>
+				<a href="Services.html">Services</a>
+                    <ul>
+                    	<li><a href="#">Hourly Car Rental</a></li>
+                    	<li><a href="#">Airport Transfer</a></li>
+                    	<li><a href="#">Daily Basis Rent a Car</a></li>
+                        <li><a href="#">Monthly Car Rental</a></li>
+                    	<li><a href="#">Office Pick & Drop</a></li>
+                    	<li><a href="#">Enter District Car Rental</a></li>
+
+                    </ul>
+			</li> 
+			<li>
+				<a href="pricing.html">pricing</a>
+                <ul>
+                    	<li><a href="#">Hourly Car Renting</a></li>
+                    	<li><a href="#">Airport Transfer</a></li>
+                    	<li><a href="#">Daily Basis Payment</a></li>
+                        <li><a href="#">Monthly Payment</a></li>
+                    	<li><a href="#">Customised Payment</a></li>
+                    	
+
+                    </ul>
+			</li>
+			<li>
+				<a href="packages.html">packages</a>
+				     <ul>
+                    	<li><a href="#">Inter Distroct</a></li>
+                    	<li><a href="#">In Dhaka</a></li>
+                    	<li><a href="#">In Chittagong</a></li>
+                        <li><a href="#">In Sylhet</a></li>
+                         <li><a href="#">In Khulna</a></li>
+                        <li><a href="#">In Barisal</a></li>
+                    	<li><a href="#">Customised Package</a></li>
+                    	
+
+                    </ul>
+			</li>
+			<li>
+				<a href="Information.html">Information</a>
+			</li>
+			<li>
+				<a href="reviews.html">reviews</a>
+			</li>
+			<li>
+				<a href="contact.html">contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<div style="margin-top: none;">
+		<img src="grand_i10_twilight_blue_542x_7.jpg" id="social" onclick="change()" style="width:  100%">
+	</div>
+
+    <div class="loginbox">
+		<img src="Blank_Avatar.png" class="avatar">
+           <h1>Customer Login</h1>
+           <form>
+           	<p>Username</p>
+           	<input type="text" name="Username" placeholder="Enter username">
+           	<p>Password</p>
+           	<input type="password" name="password" placeholder="Enter password">
+           	<input type="submit" name="submit" value="Login">
+            <a href="#">Forget Password</a><br>
+            <a href="#">Need An CUSTOMER Accont</a>
+           </form>
+
+
+	</div>
+
+	<div class="logbox">
+		<img src="avatar-1577909_960_720.png" class="ava">
+           <h1>Admin Login</h1>
+           <form>
+           	<p>Username</p>
+           	<input type="text" name="Username" placeholder="Enter username">
+           	<p>Password</p>
+           	<input type="password" name="password" placeholder="Enter password">
+           	<input type="submit" name="submit" value="Login">
+            <a href="#">Forget Password</a><br>
+            <a href="#">Need An ADMIN Accont</a>
+           </form>
+
+
+	</div>
+
+    <div class="heading">
+		<p>Copyright@Nazib_Nishupto</p>
+	</div>
+    
+
+
+
+    </div>
+    </form>
+</body>
+</html>
